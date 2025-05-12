@@ -1,0 +1,21 @@
+## Development Workflow
+
+1. **Evgeni: HTML Layout Designer**  
+   - Completed `index.html` structure with semantic sections and accessibility tags  
+   - Reviewed by: Albert, Pau
+
+2. **Pau: JavaScript Interactions Developer**  
+   - Implemented `app.js` features (comparison table toggle, random fun facts, dark/light theme)  
+   - Reviewed by: Albert, Oriol
+
+3. **Albert: CSS Designer & CI Configurator**  
+   - Created `styles.css` with responsive, mobile-first design and set up `.github/workflows/ci.yml`  
+   - Reviewed by: Evgeni, Pau
+
+4. **Oriol: Documentation Lead**  
+   - Drafted `README.md` detailing project overview, team roles, features, and setup instructions  
+   - Reviewed by: Evgeni, Pau
+
+5. **Evgeni & Pau: Final Integration & Testing**  
+   - Integrated all components, performed cross-browser checks, and fixed any bugs  
+   - Sign-off by: Albert, Oriol
