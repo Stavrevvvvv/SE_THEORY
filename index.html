@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What is an LLM?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>What is an LLM?</h1>
+  </header>
+  <main>
+    <section id="explanation">
+      <h2>Introduction</h2>
+      <p>Large Language Models (LLMs) are AI systems trained on massive text datasets to understand and generate human-like language. They can perform tasks like translation, summarization, and creative writing.</p>
+      <h3>Common Use Cases</h3>
+      <ul id="use-cases">
+        <li>Text generation and completion</li>
+        <li>Chatbots and virtual assistants</li>
+        <li>Content summarization</li>
+        <li>Language translation</li>
+        <li>Sentiment analysis</li>
+      </ul>
+    </section>
+
+    <section id="comparison">
+      <h2>Comparison of Popular LLMs</h2>
+      <button id="toggle-table">Show/Hide Table</button>
+      <table id="llm-table">
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Developer</th>
+            <th>Parameters</th>
+            <th>Release Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>GPT-4</td><td>OpenAI</td><td>~175B</td><td>2023</td></tr>
+          <tr><td>Claude</td><td>Anthropic</td><td>~90B</td><td>2023</td></tr>
+          <tr><td>Gemini</td><td>Google DeepMind</td><td>~200B</td><td>2024</td></tr>
+          <tr><td>LLaMA</td><td>Meta</td><td>7B–65B</td><td>2023</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="platforms">
+      <h2>Where to Try LLMs</h2>
+      <ul>
+        <li><a href="https://openai.com/" target="_blank">OpenAI</a></li>
+        <li><a href="https://poe.com/" target="_blank">Poe</a></li>
+        <li><a href="https://huggingface.co/" target="_blank">Hugging Face</a></li>
+      </ul>
+    </section>
+
+    <section id="risks">
+      <h2>Ethical Risks</h2>
+      <ul>
+        <li>Misinformation and hallucinations</li>
+        <li>Bias in training data</li>
+        <li>Privacy and data security concerns</li>
+      </ul>
+    </section>
+
+    <section id="fun-facts">
+      <h2>Fun Facts</h2>
+      <button id="fun-fact-btn">Show a Fun Fact</button>
+      <p id="fun-fact"></p>
+    </section>
+
+    <button id="theme-btn">Toggle Dark/Light Theme</button>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
